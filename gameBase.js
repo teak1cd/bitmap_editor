@@ -1,5 +1,6 @@
 var outputE = document.getElementById("output");
 var inputE = document.getElementById("input");
+alert("hi");
 var commands = [];
 function loop(){
 window.requestAnimationFrame(loop);
