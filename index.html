@@ -24,8 +24,7 @@ function pick(event) {
   var data = pixel.data;
   var rgba = 'rgba(' + data[0] + ',' + data[1] +
              ',' + data[2] + ',' + (data[3] / 255) + ')';
-  color.style.background =  rgba;
-  color.textContent = rgba;
+  color.innerHTML = rgba;
 }
   </script>
 </head>
