@@ -7,8 +7,8 @@
   <script>
     var img = new Image();
 img.src = 'test.png';
-var canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
+var canvas =null;// document.getElementById('canvas');
+var ctx =null;// canvas.getContext('2d');
 img.onload = function() {
   canvas = document.getElementById('canvas');
   ctx = canvas.getContext('2d');
